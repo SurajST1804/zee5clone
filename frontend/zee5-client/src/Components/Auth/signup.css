@@ -1,0 +1,126 @@
+#signupSection {
+  width: 100%;
+  height: 800px;
+}
+
+#signupSection article {
+  width: 25%;
+  margin: 0 auto;
+  /* display: flex; */
+}
+
+.signupBlock1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.signupBlock1 h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.signupBlock1 p {
+  color: #cfc3ca;
+  font-size: 15px;
+}
+
+.signupBlock2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #d6006b;
+  width: 300px;
+  text-align: center;
+  margin: 30px 44px 50px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 6px;
+  height: 50px;
+}
+
+.orBlock {
+  display: flex;
+  justify-content: center;
+}
+
+.orBlock > div {
+  background-color: #450948;
+  height: 36px;
+  width: 36px;
+  border-radius: 19px;
+}
+
+.orBlock > div > span {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  font-weight: 500;
+}
+
+/* .formBlock > form {
+  display: flex;
+} */
+
+.formBlock .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group input {
+  height: 35px;
+  border: none;
+  border-bottom: 2px solid #3f3845;
+  background: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  outline: none;
+  color: white;
+  margin: 20px;
+}
+
+.form-group input:focus,
+.form-group input:active {
+  border-bottom: 2px solid purple;
+  background-color: transparent;
+}
+
+.form-group button {
+  color: #80838b;
+  height: 50px;
+  width: 326px;
+  margin: 0 auto;
+  background-color: transparent;
+  border: 1px solid #87838b;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.termsBlock p {
+  font-size: 12px;
+  margin: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.3px;
+}
+.termsBlock a {
+  text-decoration: none;
+  color: #8585ff;
+}
+
+.loginLink p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.loginLink a {
+  text-decoration: none;
+  color: #8585ff;
+}

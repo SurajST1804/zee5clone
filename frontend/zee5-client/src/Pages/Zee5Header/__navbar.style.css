@@ -1,0 +1,199 @@
+#_zeeHeaderSection {
+  width: 100%;
+  height: 70px;
+  background-color: #0f0617;
+}
+
+#_zeeHeaderSection article {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  justify-content: space-between;
+}
+.__leftSide {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 60%;
+}
+.__rightSide {
+  display: flex;
+  justify-content: flex-end;
+  flex-basis: 40%;
+}
+.___logoBlock {
+  display: flex;
+  flex-basis: 10%;
+}
+.___logoBlock a {
+  width: 100%;
+  display: inline-block;
+}
+.___leftMenuBlock {
+  display: flex;
+  flex-basis: 90%;
+}
+.___logoBlock img {
+  width: auto;
+  height: 45px;
+}
+.___leftMenuBlock ul {
+  justify-content: space-around;
+  display: flex;
+  width: 100%;
+  list-style: none;
+  align-items: center;
+}
+.___leftMenuBlock li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.__rightSide main {
+  display: flex;
+  justify-content: space-between;
+  min-width: 320px;
+  align-items: center;
+}
+.__rightSide main a {
+  color: #fff;
+  text-decoration: none;
+}
+.___menuSplitter svg {
+  font-weight: bold;
+  font-size: 22px;
+  display: inline-block;
+  position: relative;
+  top: 6px;
+}
+.___leftMenuBlock a:hover {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
+}
+.___menuSplitter:nth-child(3) a {
+  text-decoration: none;
+  padding: 8px 16px;
+  background: transparent;
+  font-weight: bold;
+  margin: 1px;
+  color: #fff;
+  line-height: 27px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.___menuSplitter:nth-child(3) a:hover {
+  background-color: #fff;
+  color: #111;
+}
+.___menuSplitter:nth-child(4) a {
+  text-decoration: none;
+  padding: 10px 16px;
+  background: #8230c6;
+  margin: 0px;
+  color: #fff;
+  line-height: 26px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+}
+.___menuSplitter:nth-child(4) a:hover {
+  background-color: rgb(84, 13, 151);
+  color: #fff;
+}
+#dropDownSlide {
+  width: 23%;
+  position: fixed;
+  display: block;
+  right: 0;
+  height: 70vh;
+  top: 66px;
+  background: hsla(0, 0%, 100%, 0.06);
+  border-radius: 8px;
+  border-color: #0f0617;
+}
+#dropDownSlide nav {
+  padding: 20px 25px;
+}
+#dropDownSlide nav h4 {
+  border-color: #0f0617;
+  display: block;
+  padding: 10px 13px;
+  margin: 6px 0;
+  color: hsla(0, 0%, 100%, 0.5);
+  text-decoration: none;
+  border-top: 2px solid hsla(0, 0%, 100%, 0.1);
+  text-transform: capitalize;
+}
+#dropDownSlide nav div:first-child h4 {
+  border-top: none;
+}
+
+/* left */
+#TvShows {
+  width: 1000px;
+  height: 500px;
+  left: 0px;
+  top: 50px;
+  background: #0f0617;
+  color: white;
+  position: absolute;
+  border: 1px solid#4c3c58;
+  display: none;
+}
+#TvShows > div {
+  display: flex;
+}
+.leftTvShow {
+  flex-basis: 25%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  line-height: 5;
+  padding: 50px;
+}
+.leftContent {
+  display: flex;
+  flex-direction: column;
+}
+.leftContent li a:hover {
+  border: none;
+}
+.leftContent > li {
+  list-style: none;
+  font-size: 15px;
+}
+.leftContent > li > a {
+  text-decoration: none;
+  color: white;
+}
+.leftContent:nth-child(1) {
+  color: aquamarine;
+}
+.leftContent li a:hover {
+  background: rgb(27, 19, 35);
+}
+.rightTvShow {
+  flex-basis: 75%;
+  justify-content: flex-start;
+  display: flex;
+  justify-content: space-between;
+}
+.imgDiv {
+  justify-content: space-between;
+}
+.imgDiv img {
+  width: 245px;
+  border-radius: 20px;
+  padding: 15px 10px;
+}
+.tvshowli {
+  padding: 10px 0px;
+}
+.tvshowli:hover > #TvShows {
+  display: block;
+}

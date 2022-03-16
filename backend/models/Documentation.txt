@@ -1,0 +1,10 @@
+Documentation
+
+
+signup url
+http://localhost:5000/api/auth/signup
+method post 
+http header=> content-type:"application/json"
+body or payload json object {}
+
+in post man select body > and select raw> select json

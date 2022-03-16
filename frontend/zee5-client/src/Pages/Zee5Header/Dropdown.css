@@ -1,0 +1,53 @@
+.DropDownMenu {
+  width: 365px;
+  height: 600px;
+  position: absolute;
+  top: 78px;
+  right: 20px;
+}
+.DropDownMenu .barDropDown {
+  width: 365px;
+  height: 600px;
+  margin: 7px auto;
+  overflow-y: auto;
+  background: rgb(18, 3, 29);
+}
+.barDropDown ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.barDropDown ul li {
+  padding: 16px;
+}
+.barDropDown ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+.line {
+  border-top: 2px solid hsla(0, 0%, 100%, 0.1);
+}
+#version {
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  padding: 18px 0 32px;
+  color: hsla(0, 0%, 100%, 0.5);
+  line-height: 38px;
+}
+.exploreDropDown,
+.planDropDown,
+.infoDropDown,
+.settingsDropDown {
+  margin-left: -15px;
+  margin-top: 10px;
+}
+.explore,
+.plans,
+.settings,
+.info {
+  display: flex;
+  justify-content: space-between;
+}
